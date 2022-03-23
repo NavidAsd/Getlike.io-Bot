@@ -1,0 +1,5 @@
+Follow:Yes
+Like:Yes
+LikeCount:70
+FollowCount:50
+UseChrome:Yes
