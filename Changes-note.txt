@@ -1,0 +1,5 @@
+multi use filrefox and chrome 
+add Limit follow&Like Count In 24h
+add Config File To Configuration
+
+Release Date: 1400/12/05 - 2022/02/24
