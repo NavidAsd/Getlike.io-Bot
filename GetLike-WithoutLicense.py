@@ -301,6 +301,7 @@ class Program():
             Bot.Banner()
         elif self.Choice == '3':
             subprocess.run(['notepad.exe', './Files/log.txt'])
+            Bot.Banner()
         elif self.Choice == '4':
             subprocess.run(['notepad.exe', './Files/Proxies.txt'])
             Bot.Banner()
