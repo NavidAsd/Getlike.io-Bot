@@ -6,7 +6,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
-from win10toast import ToastNotifier
 from subprocess import call
 import pickle
 import playsound
@@ -25,7 +24,6 @@ import csv
 import os 
 
 
-toast = ToastNotifier()
 noow=datetime.datetime.now()
 Icon='./Files/Icon/I2.ico'
 
@@ -277,7 +275,7 @@ class Program():
         bnr=pyfiglet.figlet_format('GetLike',font=Banner)
         print()
         print(bnr)
-        print('insta:CodeTime_ir                                                                       ')
+        print('insta:CodeTime_ir                                            https://github.com/NavidAsd')
         print('-------------------------------------"INSTAGRAM"----------------------------------------')
         print()
         print('\33[32m'+'1)Start                                              2)Show All accounts ')
@@ -325,7 +323,7 @@ class Program():
             print('\33[36m'+f'Yor trial expires in {self.result["TrialDay"]} days.'+'\33[37m')
         else:
             print('\33[31m'+f'Yor trial expires in {self.result["TrialDay"]} days.'+'\33[37m')
-            toast.show_toast("GetLike",f"Yor trial expires in {self.result['TrialDay']} days.",duration=6,icon_path=Icon)
+            
         print()
         input('\33[36m'+'Press any key to continue..'+'\33[32m')
 
